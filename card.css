@@ -1,0 +1,196 @@
+/* card1 positioning  */
+#card1{
+  position: fixed !important;
+  width: 20%;
+  left: 121px;
+  top: 20%;
+  transition: all 0.2s ease;
+}
+
+.card1Animation {
+animation: card1 1s ease-in-out 0s 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes card1{
+from {
+  top: 20%;
+  left: 121px;
+}
+to{ 
+  top: 29%;
+  left: 40%;
+  transform: scale(2);
+  }
+}
+
+#card2{
+  position: fixed !important;
+  width: 20%;
+  left: 121px;
+  top: 55%;
+  transition: transfrom 0.2s ease, all 0.2s ease;
+}
+
+.card2Animation {
+animation: card2 1s ease-in-out 0s 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes card2{
+from {
+  top: 55%;
+  left: 121px;
+  transform: scale(1);
+}
+to{ 
+  top: 30%;
+  left: 40%;
+  transform: scale(2);
+  }
+}
+
+#card3{
+  position: fixed !important;
+  width: 20%;
+  left: 41%;
+  top:72%;
+  transition: transfrom 0.2s ease, all 0.2s ease;
+}
+
+.card3Animation {
+animation: card3 1s ease-in-out 0s 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes card3{
+from {
+  top: 81%;
+  left: 39%;
+  transform: scale(1);
+}
+to{ 
+  top: 30%;
+  left: 40%;
+  transform: scale(2);
+  }
+}
+
+#card4{
+  position: fixed !important;
+  width: 20%;
+  left: 73%;
+  top: 55%;
+  transition: transfrom 0.2s ease, all 0.2s ease;
+}
+
+.card4Animation {
+animation: card4 1s ease-in-out 0s 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes card4{
+from {
+  top: 55%;
+  left: 73%;
+  transform: scale(1);
+}
+to{ 
+  top: 30%;
+  left:40%;
+  transform: scale(2);
+  }
+}
+
+#card5{
+  position: fixed !important;
+  width: 20%;
+  left: 73%;
+  top: 20%;
+  transition: transfrom 0.2s ease, all 0.2s ease;
+}
+
+.card5Animation {
+animation: card5 1s ease-in-out 0s 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes card5{
+from {
+  top: 11%;
+  left: 73%;
+  transform: scale(1);
+}
+to{ 
+  top: 30%;
+  left:40%;
+  transform: scale(2);
+  }
+}
+
+#card6{
+  position: fixed !important;
+  width: 20%;
+  left: 41%;
+  top: 2%;
+  transition: transfrom 0.2s ease, all 0.2s ease;
+}
+
+.card6Animation {
+animation: card6 1s ease-in-out 0s 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes card6{
+from {
+  top: 3%;
+  left: 81%;
+  transform: scale(1);
+}
+to{ 
+  top: 30%;
+  left:40%;
+  transform: scale(2);
+  }
+}
+
+
+
+
+/* Hover */
+#card1:hover {
+ transform: scale(1.2);
+ transition: all 0.2s ease;
+}
+
+#card2:hover {
+ transform: scale(1.2);
+ transition: all 0.2s ease;
+}
+
+#card3:hover {
+ transform: scale(1.2);
+ transition: all 0.2s ease;
+}
+
+#card4:hover {
+ transform: scale(1.2);
+ transition: all 0.2s ease;
+}
+
+#card5:hover {
+ transform: scale(1.2);
+ transition: all 0.2s ease;
+}
+
+#card6:hover {
+ transform: scale(1.2);
+ transition: all 0.2s ease;
+}
+/**
+.container:hover > .card:not(:hover) {
+  filter: blur(2px);
+}
+.container:hover > .grid:not(:hover) {
+  filter: blur(2px);
+}**/
