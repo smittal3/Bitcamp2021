@@ -1,0 +1,51 @@
+/* makes the website a one page website without a scroll */
+html {
+height: 100%;
+width: 100%;
+overflow: hidden;
+/* background-color: black; */
+}
+
+body {
+  background: linear-gradient(-45deg, #FFAFBD , #FFC3A0, #DDD6F3, #FAACA8);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* holds the picture and username */
+.grid {
+  /* display: grid;
+  place-items: center; */
+    margin-top: 25%;
+    margin-left: 37%;
+    top: 71px !important;
+  
+}
+
+/* holds the picture */
+.profile-pic{
+  position: sticky;
+  width: 300px;
+  transition: transform .2s; 
+  clip-path: circle();
+  margin-top: 1.5%;
+}
+
+/* tells the user to transition within 0.2 secs */
+.userName{
+margin: auto;
+width:73%
+}
+
